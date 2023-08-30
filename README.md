@@ -7,7 +7,7 @@ The biggest thing I started to learn this week was how parametric modeling could
 
 Once I had the file, taking it to laser cut was not much of an issue. As I have lots of experience with laser cutting, the ones in the Makerspace were not too bad. I was able to make a few test cuts with the default settings for plywood, and after a few adjustments my pieces cut out from the scrap perfectly and fit together very well. 
 
-![Laser Cutting the Phone Stand](tdf-fa23-khmendoza1/Main/Media/laserCuttingStand.jpg)
+![Laser Cutting the Phone Stand](Main/Media/laserCuttingStand.jpg)
 
 Overall, I think this was definitely more challenging than I had imagined, and I know I have a long way to go to understand something this complex but I have gotten a lot of knowledge from this so far. I think I will need to have more instruction to become better at Rhino and Grasshopper. I was able to laser cut a model of the phone stand with some modifications for my phone, and it seemed to work pretty well and fit my phone correctly. 
 
