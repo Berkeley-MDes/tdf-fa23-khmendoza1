@@ -1,4 +1,4 @@
-# Week of 08/30/2023 Progress Report
+# Week 1 08/30/2023 Progress Report
 ## Reflections
 This week was the first week I had ever used Rhino. I came into it thinking it would be similar to other CAD software I've used like Solidworks or Fusion but it was different enough to challenge me. I jumped right into picking apart the cell phone stand file with everything in it because I wanted to see the entire file and how everything fit in. This was a bit overwhelming but I began to pick up on how Rhino and Grasshopper worked. 
 
