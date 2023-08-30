@@ -11,6 +11,9 @@ Once I had the file, taking it to laser cut was not much of an issue. As I have 
 
 Overall, I think this was definitely more challenging than I had imagined, and I know I have a long way to go to understand something this complex but I have gotten a lot of knowledge from this so far. I think I will need to have more instruction to become better at Rhino and Grasshopper. I was able to laser cut a model of the phone stand with some modifications for my phone, and it seemed to work pretty well and fit my phone correctly. 
 
+![Fully Assembled Phone Stand from Side View](Media/StandAssembledSide(2).jpg)
+![Fully Assembled Phone Stand from Front View](Media/StandAssembledFront.jpg)
+
 # Hello DES INV 202 Student!
 Welcome to your new GitHub repository! 
 
