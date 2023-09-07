@@ -14,9 +14,9 @@ That allowed me to move the cone however I wanted in a single orientation, but I
 
 I repeated this process for the pole of the umbrella, which consisted of just a thin cylinder that originated at the base of the stand. The length of the pole is derived from the Z height of the cone. The rotation was copied from the cone, but I noticed that the end of the cylinder was poking out the underside of the phone base, so I needed to copy the rectangular void that created the table surface and then add another shape difference to make sure that the flat plane remained on the bottom of the stand. One issue that I am still working through is connecting the pole and cone to be one object. I need to work out the height mathematically so that the pole always touches the cone but does not go through it. Then once this is fixed I will create a shape union to combine the umbrella with the base of the phone stand. 
 
-![Full Umbrella Moving Angles](UmbrellaAssembled.jpg)
+![Full Umbrella Moving Angles](Media/UmbrellaAssembled.jpg)
 
-![Full Umbrella Moveing at Different Angle](DifferentAngleStand.jpg)
+![Full Umbrella Moveing at Different Angle](Media/DifferentAngleStand.jpg)
 
 ## Speculations
 I think that this week gave me a good insight into the mechanics of Grasshopper and what I could do with it. If I were to keep moving forward with the umbrella on the phone stand and create something somewhat useful, I would want to limit the angle of movement of the umbrella so that it remained mostly overhead of the phone as the phone tilted. This way there could still be a response to changes in the viewing angle, but the shade remains mostly overhead. I would also like to change the position of the pole to be located on the stand to be off to the side. This way the pole would not interfere with inserting or removing the phone from the stand. There would be a lot of use to have the umbrella removable as well, as it is not always necessary and would get in the way of photos or videos from the phone. 
