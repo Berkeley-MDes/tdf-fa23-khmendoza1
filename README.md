@@ -4,7 +4,7 @@
 
 I wanted to continue working on something that protected me from the sun this week, and I was inspired by my recent purchase of some sunglasses that do not quite fit my face perfectly. It was hard to tell the sizing on their website and I need to get a new pair that truly fits my face. I really liked the funky design on the pair that I purchased, so I wanted to create something that was equally fun and still provided enough customization to allow for a perfect fit on my face. I really wanted to challenge myself as I had never coded anything from scratch in grasshopper, so I wanted to move away from the phone stand and start building something that was completely unique. I have done a lot of 3D printing and laser cutting as well, so I wanted to put a lot more time into the code and skip out on creating something physical. 
 
-![Image of Finished Sunglasses](Media/Sunglasses/FinishedSunglasses.jpg)
+![Image of Finished Sunglasses](Media/Sunglasses/FinishedGlasses.jpg)
 
 I started with creating the frames of the glasses. Orignally, I had created cylindrical frames as I had not yet discovered the polygon tool yet. I found it easy to create the objects and then remove the material from the center, but the first challenge I ran into was creating the bridge of the glasses. I knew I wanted to have the bridge be able to move up and down in relation to the frames, but as I changed the Z component of the box, I saw that there were gaps between the bridge and frame. I had orignally set the origin of the box to be on the tangent edge of the frames, but this always left a gap. I had already created the cutout for the lens at this point, so I was trying to play with a way to keep the origin within the frame material, but this still left me with gaps as it moved farther up. To fix this issue, I realized that I could move the origin of the box to the center of the frame, combine it with uncut frame, and then create the cutout. This gave the bridge enough length to always be connected to the frame and move up and down with any gaps. 
 
@@ -16,7 +16,7 @@ When I moved onto the arms of the glasses, I realized that I would have the same
 
 ![Points created for Arm Sweep](Media/Sunglasses/SweepPoints.jpg)
 ![Completed Sweep](Media/Sunglasses/SweepComplete.jpg)
-![Merge blocks code with double dashed lines](MergeCode.jpg)
+![Merge blocks code with double dashed lines](Media/Sunglasses/MergeCode.jpg)
 
 The arms were extruding correctly, but had a little bit excess material that was outside of the thickness of the frames. In order to get rid of this, I needed to move the origin of the cutout to be farther in the frames so that it cut out everything. This worked well and covered all of the potential shapes that I had allowed the users to choose.  
 
