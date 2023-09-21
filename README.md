@@ -1,3 +1,12 @@
+# Week 4 09/18/2023 Progress Report
+## Reflections
+I was very excited to hear about this new project that we are going to be working on. When Jeff was giving his presentation, my mind already started buzzing with ideas of what I could do. I have used microcontrollers before, so I really want to push myself on this project and create something that is very aesthetically pleasing and functions well. I am hoping to combine some aspect of music and lights into the project but I am not sure exactly what I want it to be yet. I was playing around with the idea that there could be a way to process information about the song, i.e. the bpm or energy levels, that would then map to a color pallette. Then I could 3D print these orbs that could difuse the light and become decorative pieces that are music reactive in my room. I want to keep refining this idea but I think that they could be very cool products that I could have as decorations. 
+
+I was able to setup the photon pretty easily, but I had some troubles with the usb connection at first. My computer wasn't recognizing that there was anything input into the port but the photon was flashing blue indicating that there was power. I had to eventually switch out the cables and then my computer was able to recognize it. The process went smoothly and I was able to connect my photon to the IOT wifi. 
+
+## Speculations
+I know that microcontrollers are used in a vast variety of products, but I really like the idea of them being sensing devices that then create reactive art. I would love to pursure more interactive and educational pieces of art that teach or inspire wonder about technology and creativity. When I think about this, I often think about the exhibits at the exploratorium and how they are able to leverage technology to be an educational and fun interaction for people. We are already so integrated with technology in our daily lives, but there is not as large of a desire to understand how it all works. I would love to use microcontrollers to help create more understanding and bridge the gap between tech and people. 
+
 # Week 3 09/11/2023 Progress Report
 ## Reflections 
 [Watch my Youtube Video explanation Here](https://youtu.be/fW_C_lz0i7k)
