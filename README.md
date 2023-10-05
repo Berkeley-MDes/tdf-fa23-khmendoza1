@@ -8,7 +8,7 @@ We ordered the sensors and while we are waiting to receive them, I wanted to get
 
 ![Photo of sensor setup](Media/ProjectTwo/IMG_3840.jpg)
 ![Photo of code](Media/ProjectTwo/distanceCode.jpg) 
-[Photo of code output](Media/ProjectTwo/distanceCodeOutput.jpg)
+![Photo of code output](Media/ProjectTwo/distanceCodeOutput.jpg)
 
 ## Speculations
 With this project, I see the outcome being able to be scaled into an immersive art project. I would love to have a person become the striker, where they could sit on a swing and move around and trigger the different tones. We would also like to incorporate more visual aspects to the project, and would like to use Touchdesigner to create visuals that could be projected onto walls in a room or on the floor around the person. I would like the visuals to be audio reactive and help create a more peaceful and immersive experience to the user when they enter the space. Photon can integrate pretty easily into Touchdesigner, as the serial port can be read and integrated into creating noise and variation in the visuals. I would imagine some large circles being projected onto a screen and as the chimes are triggered the circles pulse and decay just as the tone does. I think that this will allow to connect the user to the piece a whole lot more than just with audio. 
