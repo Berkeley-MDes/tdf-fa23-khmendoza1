@@ -1,3 +1,18 @@
+# Week 6 10/01/2023 Progress Report
+## Reflections
+This week, I joined the laser wind chime group and we began iterating through our ideas. Our goal is to put a Bay-area spin on wind chimes and remove the tubes and replace them with infrared sensors that can detect when the wind blows the striker into the position of the chime. We brainstormed between ideas of using actual lasers and sensors that would have a binary on/off mechanism to trigger the chime tone to play through the speakers and then using infrared time-of-flight sensors that could detect distance between the sensor and the striker. We decided to pursue the infrared sensors as they will allow us to create more variation in the tone and volume of the strikers by calculating how fast the striker enters/exits the field of vision of the sensor. We have created an initial sketch of our idea here. 
+
+[Initial sketch of the chimeless wind chimes]
+
+We ordered the sensors and while we are waiting to receive them, I wanted to get familiar with distance detection and decided to use the ultrasonic sensor in the kit to do so. I found some wiring diagrams to connect the sensor to the photon and then tried to code the sensor. I realized that I am not very familiar with the syntax of VSCode and the use of the sensor. I had to look up some code to get the sensor working, and compiling the code that I got became difficult. I needed to change how the variables were delcared and eventually got the code to compile. However, when I flashed the code to the device, I started receiving some strange values in the serial monitor. The values should have been printing out in inches, but I was not sure what I was seeing. The data also did not seem to change as I moved my hand closer and farther from the sensor, so I will need to keep digging into the code and better understand what I am using. 
+
+[Photo of sensor setup]
+[Photo of code]
+[Photo of code output]
+
+## Speculations
+With this project, I see the outcome being able to be scaled into an immersive art project. I would love to have a person become the striker, where they could sit on a swing and move around and trigger the different tones. We would also like to incorporate more visual aspects to the project, and would like to use Touchdesigner to create visuals that could be projected onto walls in a room or on the floor around the person. I would like the visuals to be audio reactive and help create a more peaceful and immersive experience to the user when they enter the space. Photon can integrate pretty easily into Touchdesigner, as the serial port can be read and integrated into creating noise and variation in the visuals. I would imagine some large circles being projected onto a screen and as the chimes are triggered the circles pulse and decay just as the tone does. I think that this will allow to connect the user to the piece a whole lot more than just with audio. 
+
 # Week 5 09/25/2023 Progress Report
 ## Reflections
 This week I battled. I am pretty familiar with building circuits on breadboards and got the blinking light and light sensor, so I started working with Jeff on gaining some familiarity with VSCode. This was the primary reason for my insanity this week, as the code would not run for me after going through all of the setup in class. I was getting an error that just immediately could not compile the code shown below. 
