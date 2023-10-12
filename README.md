@@ -9,7 +9,7 @@ To start, I found a list of common notes for wind chimes and found a dataset of 
 [CODE GENERATED]
 
 ## Speculations
-I want to integrate Tone.js into this project because I want to have more control over the note production. I spent some time going through a lesson on synth generation through Ableton and I understand the theory behind tone generation much more now. For this project, we would need to make sounds with short attacks and variable sustains and decays. We can add some reverb onto the tone and this would give the effect of the chimes ringing effectively. 
+I want to integrate Tone.js into this project because I want to have more control over the note production. I spent some time going through a lesson on synth generation through Ableton and I understand the theory behind tone generation much more now. For this project, we would need to make sounds with short attacks and variable sustains and decays. We can add some reverb onto the tone and this would give the effect of the chimes ringing effectively. I really want to make high quality sounds and connecting it through my browser would be the easiest way to then connect to a speaker, so doing this it would elevate the chimes even more so. 
 
 # Week 6 10/01/2023 Progress Report
 ## Reflections
