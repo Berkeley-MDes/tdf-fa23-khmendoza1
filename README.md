@@ -6,7 +6,7 @@ We were pointed towards Tone.js to use for sound since it is browser based and w
 
 To start, I found a list of common notes for wind chimes and found a dataset of frequencies for all tones that can be generated on the particle. I made variables that for each note and created a list containing those notes. Because we do not have the sensor data fully set up yet, I decided to use a random number generator to get a similar functionality to the chimes. I used a random number generator to pick out a tone from an index of note frequencies that could be played and then set a random note duration as well. Once I selected a note and duration, I could pass this into the tone function and generate a tone on a speaker. I decided to just print the frequencies to check that the tones were producing at random. This is working, and it will be easy to integrate the data from the other photon soon. 
 
-[CODE GENERATED]
+[CODE GENERATED](Media/ProjectTwo/generateTone.ino)
 
 ## Speculations
 I want to integrate Tone.js into this project because I want to have more control over the note production. I spent some time going through a lesson on synth generation through Ableton and I understand the theory behind tone generation much more now. For this project, we would need to make sounds with short attacks and variable sustains and decays. We can add some reverb onto the tone and this would give the effect of the chimes ringing effectively. I really want to make high quality sounds and connecting it through my browser would be the easiest way to then connect to a speaker, so doing this it would elevate the chimes even more so. 
