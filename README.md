@@ -1,3 +1,20 @@
+# Week 8 10/15/2023 Progress Report
+## Reflections
+This week, we needed to finish and finalize our method for generating tones and then integrate the two photons together. Despite all of the effort in using Tone,js, we decided to move away from it because Touchdesigner offered an easier integration and we could also add the visual aspects to the project. Touchdesigner is able to read information off of the serial port, so all we needed to do was have one photon send frequencies everytime that a sensor was triggered. I started by using my random tone generator function that I wrote last week to write to the Serial port. After that, I watched some tutorials to integrate microcontroller data into Touchdesigner. 
+
+Once I could read the data, I started making the code necessary to generate the tones. I found a trigger block that is able to create an amplitude envelope where I could change the attack, decay, sustain, and release of a signal. I shortened the attack and lengthened the decay and release to mimic the sound profile of a ringing chime. I then passed this into an audio oscillator that produces tones at a certain frequency. Using the amplitude trigger allowed me to control the volume of the tone and it produced very realistic sounding tones for chimes. I then layered another frequency one octave higher that helped make a more realistic chime sound. I was using the frequency numbers output by the photon to control the frequency parameter in the audio osciallator to change the notes of each of the chimes. 
+
+Next, I started working on the visuals in Touchdesigner. I have made audio-reactive visualizers before, so I used a lot of my previous code to do this. I created a circle that becomes "noisy" whenever the tone is triggered. The noise is applied to the radius of the cirlce so it distorts whenever the trigger goes off. I used a feedback loop to add some visual "decay" to the distortion and passed in the amplitude envelope to the opacity of the circle so it looks like it comes "alive" whenever it is triggered. I could see this part of the project being developed more, but I am happy with where it is and how it functions. 
+
+Integrating the two photons was relatively simple code-wise, but the connectivity issues with the photon were frustrating to work through. Once everything was claimed and connected to the internet, we were able to publish the frequencies every time a sensor read data and then subscribed with the other one that was connected ot my serial port. 
+
+Here is the working model video! 
+
+[Insert Video here]
+
+## Speculations
+I see the value in being able to connect the photons through wifi, and it could allow for some very cool audio-visual experiences I think. Whatever data being sensed could easily be transmitted to a laptop that could then use Touchdesigner to make the visuals. I really enjoyed making the visuals for this project and would want to continue to do so in future projects. The chimes could be very easily scaled up into an art exhibit where the user becomes the striker of the chimes. We were thinking of having the user sit on a swing and as they move around they trigger the noises and the Touchdesinger graphics could be projected onto the floor. I like how this project came out and the implications that it has for my work in art installations. 
+
 # Week 7 10/08/2023 Progress Report
 ## Reflections
 The big task for me this week was to figure out how to create different tones that could be played when the sensor data is sent to my photon. The first photon will be located on the chimes itself, and then will send over data that shows which sensor was activated and the changes in distance detected by the sensor. This will correspond to my photon, which will then interpret the data to trigger a certain tone for a duration that corresponds to the distance changes. 
