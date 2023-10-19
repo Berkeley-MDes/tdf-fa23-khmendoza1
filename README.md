@@ -10,7 +10,7 @@ Integrating the two photons was relatively simple code-wise, but the connectivit
 
 Here is the working model video! 
 
-[Insert Video here]
+![Video of Working Chimes](Media/ProjectTwo/IMG_0115.MOV)
 
 ## Speculations
 I see the value in being able to connect the photons through wifi, and it could allow for some very cool audio-visual experiences I think. Whatever data being sensed could easily be transmitted to a laptop that could then use Touchdesigner to make the visuals. I really enjoyed making the visuals for this project and would want to continue to do so in future projects. The chimes could be very easily scaled up into an art exhibit where the user becomes the striker of the chimes. We were thinking of having the user sit on a swing and as they move around they trigger the noises and the Touchdesinger graphics could be projected onto the floor. I like how this project came out and the implications that it has for my work in art installations. 
