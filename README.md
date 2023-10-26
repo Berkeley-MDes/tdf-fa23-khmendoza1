@@ -1,3 +1,12 @@
+# Week 9 10/23/2023 Progress Report
+## Reflections
+Looking at my work this week, it was very interesting to immediately switch gears from the microcontroller project to AI. To speak truthfully, AI does not really interest me and I am much more interested in physical products, but I know I need to have some familiarity with this project and it will be good to understand how these systems work. I played around with inserting different instructions to the product and I landed on making it use a Midwestern accent to feel a little bit more like home. 
+
+So far, I've been able to upload all of the contents of my Github into two different knowledge sets that are broken up by project. When I ask the assistant for information about the project, it gives me a very verbose and long answer, so I am trying to force it to condense its answers, but I may also be asking the wrong questions. I think I need to add a little bit more context to the information in the knowledge sets so that it can parse through the text easier and find what it needs. I like how the assistant is talking, but I just need to have it be more condensed and succinct, it just hasn't worked yet with the instructions I've given. 
+
+## Speculations
+With this, I think it would be really interesting to add this to my own project portfolio and add more information about myself and what I believe in. It would be cool to have this as a design tool that I can recall old techniques or little tricks that I used in older projects. This would help me remember all of the small learnings in each project, and could be a cool way for others to be able to pick my brain about my projects. 
+
 # Week 8 10/15/2023 Progress Report
 ## Reflections
 This week, we needed to finish and finalize our method for generating tones and then integrate the two photons together. Despite all of the effort in using Tone,js, we decided to move away from it because Touchdesigner offered an easier integration and we could also add the visual aspects to the project. Touchdesigner is able to read information off of the serial port, so all we needed to do was have one photon send frequencies everytime that a sensor was triggered. I started by using my random tone generator function that I wrote last week to write to the Serial port. After that, I watched some tutorials to integrate microcontroller data into Touchdesigner. 
