@@ -8,6 +8,8 @@ Another issue that I ran into was that my responses were pretty lengthy when I w
 
 ## Speculations
 Being able to create custom databases for AI chats seem to be very useful for reducing workload for humans in customer needs. The responses can be more personalized to the customer's questions and provide much more precise answers. I do think that it would require so much testing to ensure that there is accuracy in the response and that a wide variety of language could be used to get the right response. I think that the responses are so dependent on the question semantics and wording that it would need to be trained very well to understand differences in human vernacular. 
+
+I see this tool also being extremeley useful for students. Teachers could upload different types of assignments and examples and allow students to brainstorm ideas by talking to their "teacher" in this app. It could be extremely useful for those late night questions and needs from students just to get some feedback and bounce ideas in a productive and unobtrusive way. 
 # Week 9 10/23/2023 Progress Report
 ## Reflections
 Looking at my work this week, it was very interesting to immediately switch gears from the microcontroller project to AI. To speak truthfully, AI does not really interest me and I am much more interested in physical products, but I know I need to have some familiarity with this project and it will be good to understand how these systems work. I played around with inserting different instructions to the product and I landed on making it use a Midwestern accent to feel a little bit more like home. 
