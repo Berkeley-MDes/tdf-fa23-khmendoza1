@@ -1,4 +1,4 @@
-# Wekk 10/30/2023 Progress Report
+# Week 10/30/2023 Progress Report
 ## Reflections
 After completing the mini-me chatbot this week, I feel much more confident in my understanding of how AI can be used to create new tech and custom databases. I did think it was interesting being able to control the information and tone of the bot, but I still do not find this field as interesting as most. 
 
