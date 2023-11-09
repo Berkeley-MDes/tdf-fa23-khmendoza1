@@ -6,7 +6,9 @@ I am imagining using a particle cloud that contracts/expands with the flexing of
 
 Here are some more videos that are sources of inspiration to me: 
 [TouchDesigner Particle Cloud](https://youtu.be/JeRPGeYBwXo?feature=shared)
+
 [More TouchDesigner Particle Cloud Graphics](https://youtu.be/WavVlg3PZnk?feature=shared)
+
 [Wearble Piano](https://youtu.be/yNWmO4oZXxQ?feature=shared)
 
 ## Speculations
