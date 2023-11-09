@@ -1,3 +1,17 @@
+# Week 11/6/2023 Progress Report
+## Reflections
+Starting to think about my final project, I want to make some type of immersive art experience with the photon and touchdesigner. I want to show off the photons connectivity into other platforms. Taking inspiration from wearable tech, I want to create a glove that uses flex sensors that allows the user to interact with visuals and sound. I am taking inspiration from Imogen Heap, who is an artist who created a musical glove shown [here](https://youtu.be/ci-yB6EgVW4?feature=shared). I want this to be a continuation of my work on project two integrating the photon into touchdesigner, so I want to build on the visual and audio outputs as well. 
+
+I am imagining using a particle cloud that contracts/expands with the flexing of the hand and then some audio that corresponds to it. I might include one note per finger so that chords could be played. I was also hoping to include the accelerometer into the glove so that there could be some tone modulation based on the orientation of one's hand. I think that the project that used Max/msp for the fish pillows is another source of inspiration for this project. I hope that this could highlight the ability for photon to be used in immersive and interactive art pieces. 
+
+Here are some more videos that are sources of inspiration to me: 
+[TouchDesigner Particle Cloud](https://youtu.be/JeRPGeYBwXo?feature=shared)
+[More TouchDesigner Particle Cloud Graphics](https://youtu.be/WavVlg3PZnk?feature=shared)
+[Wearble Piano](https://youtu.be/yNWmO4oZXxQ?feature=shared)
+
+## Speculations
+I really have been interested in the world of immersive and interactive art lately, especially within the museum space. I could imagine museums like the Exploratorium or California Academy of the Sciences starting to bring more digital exhibits into their spaces as a new way to interact with the science field. I also really like the idea that wearables could be beneficial for accessibility. Having low-resistance and lightweight ways to create art and music could open doors for people with physical or cognitive impairments. 
+
 # Week 10/30/2023 Progress Report
 ## Reflections
 After completing the mini-me chatbot this week, I feel much more confident in my understanding of how AI can be used to create new tech and custom databases. I did think it was interesting being able to control the information and tone of the bot, but I still do not find this field as interesting as most. 
