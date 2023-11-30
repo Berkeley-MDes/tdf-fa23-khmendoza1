@@ -1,3 +1,17 @@
+# Week 11/27/2023
+## Reflections
+This week, I wanted to finalize the integration of the photon into touchdesigner so that I could finalize the graphics that I wanted to display for the object. I used the accelerometer data to rotate the sphere about each axis, which wasn't quite accurate to how the photon was moving, so I had to work on calculating the roll/pitch of the object. Because the accelerometer does not have a gyroscope, I am mot able to get yaw data, therefore I will be sticking with roll and pitch for the graphics. I was able to find some calculations that worked decently well but there were some issues around the bounds of the angles (i.e. around 180 degrees). I have still yet to fix this but it is at a point where I can use it and refine it later. 
+I also was able to integrate my flex sensor into TouchDesigner. I wanted the flex to be the primary input for changing the noise of the sphere. After I was able to wire up the sensor correctly, I got very large values that I needed to map into something useful for Touchdesigner, and from there I was able to adjust the noise how I wanted it to be. There are some issues with reaching the max values of the sensor, but I think I can limit that in the physical object well. 
+I am thinking of changing from using a glove because of the massive amounts of flex sensor/accelerometer gloves that already exist. Because of this, I want to transfer my tech into something that I feel like is usually not thought of with sensors, which for me is origami. I was able to create some interesting collapsing shapes in another class, and I think this could add some interesting aspects to a music making device more than just a glove. I want to have multiple spheres that play different tones based on the amount that they are compressed. 
+
+## Speculations
+Paper offers a really interesting medium for immersive art because it literally is a blank slate. I think that integrating tech into origami is not something that I have seen much of, and offeres a unique interaction here for somehting really cool. I hope that it works out well.
+
+# Week 11/13/2023 Progress Report
+## Reflections
+This week, I worked on creating some of the graphics for the glove. I wanted to use a abstracted visualization of grasping something, so I created a sphere that grew/shrunk in size when the hand was opened/closed. However, I did not think this was as interesting so I decided to add noise to the radius of the sphere. I wanted the amplitude of the noise to also shrink/grow with the hand, so that was added as well. I was building upon an old tutorial that I went through that created a sphere using instancing in TouchDesigner, and this allowed me to have a base object that I could then adjust for this project. 
+
+This week I was also spending 6+ hours a day finishing another project, so I did not complete much else. 
 # Week 11/6/2023 Progress Report
 ## Reflections
 Starting to think about my final project, I want to make some type of immersive art experience with the photon and touchdesigner. I want to show off the photons connectivity into other platforms. Taking inspiration from wearable tech, I want to create a glove that uses flex sensors that allows the user to interact with visuals and sound. I am taking inspiration from Imogen Heap, who is an artist who created a musical glove shown [here](https://youtu.be/ci-yB6EgVW4?feature=shared). I want this to be a continuation of my work on project two integrating the photon into touchdesigner, so I want to build on the visual and audio outputs as well. 
